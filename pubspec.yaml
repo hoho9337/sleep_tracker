@@ -1,0 +1,31 @@
+name: sleep_alarm_app
+description: A Flutter app to manage sleep alarms based on sleep cycles from Apple Health.
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.1
+  shared_preferences: ^2.0.6
+  health: ^10.2.0
+  dart_frog: ^1.1.0
+  mongo_dart: ^0.10.2
+  bcrypt: ^1.0.0
+  alarm: ^3.1.4
+  page_indicator: ^0.4.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+environment:
+  sdk: '^3.4.0'
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/modul-big-graph.png
+    - assets/rainbow-sleep.png
+    - assets/folks-signing-the-contract.png
+    - assets/start.png
+    # - assets/alarm.mp3
